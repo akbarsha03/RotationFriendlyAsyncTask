@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RotationFriendlyTaskDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="urls">
+        <item>Image 1</item>
+        <item>Image 2</item>
+        <item>Image 3</item>
+        <item>Image 4</item>
+        <item>Image 5</item>
+        <item>Image 6</item>
+        <item>Image 7</item>
+    </string-array>
+    <string-array name="imageUrls">
+        <item>http://static1.wikia.nocookie.net/__cb20130828000144/greenarrow/images/thumb/d/dd/Arrow_TV_Series_Season_2_Promo_Poster.jpg/500px-Arrow_TV_Series_Season_2_Promo_Poster.jpg</item>
+        <item>http://files.myopera.com/Guyver7/albums/317087/1539~Dragonball-Posters.jpg</item>
+        <item>http://fc09.deviantart.net/fs70/f/2013/302/0/a/justice_league__war_cover_art_by_alexgarner-d6sa7er.jpg</item>
+        <item>http://3.bp.blogspot.com/-Qq6ygotwABQ/UjgH3KjXyEI/AAAAAAAAfJs/6-G9dGr0pFc/s640/taylor-breaking-bad1.jpg</item>
+        <item>http://www4.images.coolspotters.com/photos/201023/dexter-and-dexter-morgan-profile.jpg</item>
+        <item>http://www.sideshowtoy.com/mas_assets/jpg/4609_press02-001.jpg</item>
+        <item>http://images.gamersyde.com/image_halo_4-19340-2311_0001.jpg</item>
+    </string-array>
+
+</resources>
