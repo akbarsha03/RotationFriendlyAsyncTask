@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="slidenerd.vivz.rotationfriendlytask.MainActivity"
+    tools:ignore="MergeRootRelative" >
+
+    <EditText
+        android:id="@+id/urlSelectionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="textUri" >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/downloadImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/urlSelectionText"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/urlSelectionText"
+        android:onClick="downloadImage"
+        android:text="Download Image" />
+
+    <ProgressBar
+        android:id="@+id/downloadProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:layout_below="@+id/downloadImage"
+        android:max="100"
+        style="?android:attr/progressBarStyleHorizontal" />
+
+    <ListView
+        android:id="@+id/chooseImageList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/urls"
+        android:layout_alignLeft="@+id/downloadProgress"
+        android:layout_below="@+id/downloadProgress" >
+    </ListView>
+
+</RelativeLayout>
